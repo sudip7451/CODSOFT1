@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('newimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lilita One';
+}
+
+.left {
+    color: #fff;
+    /* border: 2px solid orange; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+}
+
+.left img {
+    filter: invert(100%) ;
+    width: 161px;
+    height: 70px;
+}
+
+.left div {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-decoration: line-through;
+    text-decoration-color: #00000047
+}
+
+.mid {
+    color: white;
+    /* border: 2px solid rgb(247, 6, 6); */
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+
+}
+
+.right {
+    color: #fff;
+    /* border: 2px solid rgb(73, 221, 9); */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.btn {
+    margin: 20px 11px;
+    background-color: #cb9e9e4d;
+    color: #fff;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Lilita One';
+}
+
+.btn:hover {
+    /* background-color: rgb(128, 135, 126); */
+   background-color:  rgb(243, 227, 108) ;
+    color: black;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover,.navbar li a.active {
+    color: rgb(243, 227, 108);
+    text-decoration: underline;
+}
+
+.container{
+    width: 35%;
+    padding: 16px 30px;
+    border: 2px solid white;
+    border-radius: 22px;
+    color: white;
+    margin: 0px 70px;
+    margin-top: 239px;
+}
+
+.container h1{
+    color:#fff;
+    margin-left: 2px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.container input{
+    width: 75%;
+    padding: 11px 15px;
+    margin: 8px 22px;
+    border: none;
+    text-align: center;
+}
+
+.container button{
+   
+    display: block;
+    width: 50%;
+    margin-left: 98px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container button:hover{
+    background-color: rgb(80, 177, 80);
+    color: black;
+}
